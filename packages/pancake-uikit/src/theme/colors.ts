@@ -2,36 +2,41 @@ import { Colors } from "./types";
 
 export const baseColors = {
   failure: "#ED4B9E",
-  primary: "#FB5230",
-  primaryBright: "#EC836E",
-  primaryDark: "#b92608",
+  primary: "#17D2FB",
+  primaryBright: "#03b9e2",
+  primaryDark: "#4fddfc",
   secondary: "#330099",
-  success: "#EF694E",
+  success: "#faca6b",
   warning: "#FFB237",
 };
 
 export const brandColors = {
   binance: "#0773C9",
+  overlay: "#452a7a"
 };
 
 export const lightColors: Colors = {
   ...baseColors,
   ...brandColors,
-  background: "#e28370",
-  backgroundDisabled: "#da9a8d",
+  background: "#09092b",
+  backgroundDisabled: "#9595e9",
   contrast: "#311b17",
   dropdown: "#F6F6F6",
   invertedContrast: "#FFFFFF",
-  input: "#f1baaf",
+  bright: "#ffffff",
+  blue: "#17D2FB",
+  input: "#ffffff",
   inputSecondary: "#d7caec",
   tertiary: "#EFF4F5",
-  text: "#ce492e",
+  text: "#ffffff",
   textDisabled: "#dad5d5",
-  textSubtle: "#631404",
+  textSubtle: "#8c8c8c",
   borderColor: "#551b10",
-  card: "#FFFFFF",
+  card: "#080844",
+  menuHover: "#F7AD19",
   gradients: {
-    bubblegum: "linear-gradient(139.73deg, #FB5230 0%, #E28370 100%)",
+    bluePurple: "linear-gradient(90.82deg, #FA00FF -73.84%, #17D2FB 141.1%)",
+    bubblegum: "linear-gradient(245.94deg, rgba(8, 8, 56, 0.2) -63.8%, rgba(17, 17, 139, 0.2) 73.44%)",
   },
 };
 
@@ -40,10 +45,12 @@ export const darkColors: Colors = {
   ...brandColors,
   secondary: "#a279f5",
   background: "#202136",
-  backgroundDisabled: "#281b38",
+  backgroundDisabled: "#9595e9",
   contrast: "#FFFFFF",
   dropdown: "#2c2624",
   invertedContrast: "#662a1e",
+  bright: "#ffffff",
+  blue: "#17D2FB",
   input: "#7a534c",
   inputSecondary: "#b18179",
   primaryDark: "#c73316",
@@ -53,7 +60,9 @@ export const darkColors: Colors = {
   textSubtle: "#fc7358",
   borderColor: "#e67761",
   card: "#27262c",
+  menuHover: "#F7AD19",
   gradients: {
-    bubblegum: "linear-gradient(139.73deg, #FB5230 0%, #e97d68 100%)",
+    bluePurple: "linear-gradient(90.82deg, #FA00FF -73.84%, #17D2FB 141.1%)",
+    bubblegum: "linear-gradient(245.94deg, rgba(8, 8, 56, 0.2) -63.8%, rgba(17, 17, 139, 0.2) 73.44%)",
   },
 };

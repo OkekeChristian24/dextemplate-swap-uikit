@@ -58,6 +58,7 @@ const Details = styled.div<{ hasHandler: boolean }>`
   padding-left: 12px;
   padding-right: ${({ hasHandler }) => (hasHandler ? `${withHandlerSpacing}px` : "12px")};
   padding-top: 12px;
+
 `;
 
 const CloseHandler = styled.div`
@@ -83,8 +84,8 @@ const Alert: React.FC<AlertProps> = ({ title, children, variant, onClick }) => {
         <Icon color="currentColor" width="24px" />
       </IconLabel>
       <Details hasHandler={!!onClick}>
-        <Text bold>{title}</Text>
-        {typeof children === "string" ? <Text as="p">{children}</Text> : children}
+        <Text color="text" bold>{title}</Text>
+        {typeof children === "string" ? <Text color="text" as="p">{children}</Text> : children}
       </Details>
       {onClick && (
         <CloseHandler>

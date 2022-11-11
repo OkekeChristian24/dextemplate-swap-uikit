@@ -44,17 +44,17 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
     <Flex>
       <MenuButton aria-label="Toggle menu" onClick={togglePush} mr="24px">
         {isPushed ? (
-          <HamburgerCloseIcon width="24px" color="textSubtle" />
+          <HamburgerCloseIcon width="24px" color="blue" />
         ) : (
-          <HamburgerIcon width="24px" color="textSubtle" />
+          <HamburgerIcon width="24px" color="blue" />
         )}
       </MenuButton>
       {isAbsoluteUrl ? (
-        <StyledLink as="a" href={href} aria-label="Flutter home page">
+        <StyledLink as="a" href={href} aria-label="BriseSwap home page">
           {innerLogo}
         </StyledLink>
       ) : (
-        <StyledLink to={href} aria-label="Flutter home page">
+        <StyledLink to={href} aria-label="BriseSwap home page">
           {innerLogo}
         </StyledLink>
       )}

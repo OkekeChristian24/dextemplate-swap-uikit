@@ -18,7 +18,7 @@ const Modal: React.FC<ModalProps> = ({
     <ModalHeader background={headerBackground}>
       <ModalTitle>
         {onBack && <ModalBackButton onBack={onBack} />}
-        <Heading>{title}</Heading>
+        <Heading color="text">{title}</Heading>
       </ModalTitle>
       {!hideCloseButton && <ModalCloseButton onDismiss={onDismiss} />}
     </ModalHeader>

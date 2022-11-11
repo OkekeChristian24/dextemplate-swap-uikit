@@ -145,7 +145,7 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/officialflutterswap",
+        href: "https://t.me/brisepadco",
       },
       // {
       //   label: "Bahasa Indonesia",
@@ -200,7 +200,7 @@ export const socials = [
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/flutterswap",
+    href: "https://twitter.com/Brisepadco",
   },
 ];
 
